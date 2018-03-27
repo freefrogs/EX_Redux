@@ -1,0 +1,43 @@
+form {
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+form p {
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #451e63;
+}
+
+form p::after {
+	content: '';
+	height: 1px;
+	width: 25%;
+	margin: 0 auto;
+	display: block;
+	background: #b289d3;
+}
+
+form textarea {
+	width: 70%;
+	font-family: Calibri, sans-serif;
+}
+
+input {
+	display: block;
+	padding: 10px 25px;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 2% auto 0;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	background: #451e63;
+	color: #fff;
+}
+
+input:hover {
+	color: #000;
+	background: #b289d3
+}

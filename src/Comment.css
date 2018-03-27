@@ -1,0 +1,35 @@
+li {
+	padding: 0 2% 2%;
+	margin-bottom: 2%;
+	border: 1px solid #939393;
+}
+
+li p {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+li span {
+	color: #939393;
+	text-decoration: underline;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+li button {
+	width: 30px;
+	height: 30px;
+	font-size: 15px;
+	margin-right: 5px;
+	border-radius: 50%;
+	border: none;
+	outline: none;
+	background: #451e63;
+	color: #fff;
+	cursor: pointer;
+}
+
+li button:hover {
+	background: #b289d3;
+	color: #000;
+}
